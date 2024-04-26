@@ -8,6 +8,9 @@ body{
 #divmain{
     display: flex;
 }
+#teles{
+    background: white;
+}
 
 header{
     background-color: #b588e7;
@@ -50,6 +53,9 @@ footer{
     background-color:  #91b7e8;
     width: 50%;
 }
+#sidebar, #main, #widget, #startics{
+    margin: 3px;
+}
 
 @media screen and (max-width: 900px){
     #divmain, #kicsi{
@@ -57,6 +63,9 @@ footer{
     }
     #sidebar, #main, #widget, #startics, #kicsi, #divjobb{
         width: 100%;
+    }
+    #sidebar, #main, #widget, #startics, #kicsi, header{
+        margin: 3px;
     }
     #sidebar{
         height: 60px;
